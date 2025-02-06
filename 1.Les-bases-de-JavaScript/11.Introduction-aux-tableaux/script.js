@@ -20,21 +20,35 @@ const users = ["Paul", "Ana", "Juliette", "Alexandre", "Victor"];
 
 // propriété length très pratique
 
+console.log(users.length);
 
 
 // Pour sélectionner le dernier élément d'un tableau
+
+console.log(users[0]);
+
+// console.log(users[users.length - 1])
 
 
 
 // push()
 
+users.push('Yassine')
+console.log(users[users.length - 1]);
+console.log(users);
+
 
 
 // pop()
 
+users.pop()
+console.log(users);
 
 
 // indexOf()
+
+console.log(users.indexOf("Ana"));
+
 
 
 // Les tableaux sont des objets !
@@ -42,3 +56,6 @@ const users = ["Paul", "Ana", "Juliette", "Alexandre", "Victor"];
 console.log(typeof users);  // object
 
 // En effet, ils ont des propriétés (0,1,2,3,4,5...) et on y accède via la bracket notation.
+console.log(users[1]);
+console.log(users[3]);
+

@@ -32,7 +32,7 @@
     >=  Supérieur ou égal.
 */
 
-
+                
 /* 
     3. Les opérateurs d'égalité.
 

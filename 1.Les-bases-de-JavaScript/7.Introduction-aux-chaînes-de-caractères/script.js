@@ -16,12 +16,24 @@ let money = 457;
 /* On peut faire des calculs et appeler des fonctions dans les accolades. */
 
 
+// Template litterals 
+
+// const userAccountInfo = `Il vous reste ${money}€ dans votre compte.`
+// console.log(userAccountInfo);
+
+
 /* 
     2. La concaténation, ou l'assemblage de plusieurs chaînes.
 */
 
-const chunk1 = "abc";
-const chunk2 = "def";
+// const chunk1 = "abc";
+// const chunk2 = "def";
+// const chunk3 = chunk1 + chunk2;
+
+// console.log(chunk1 + chunk2);
+// console.log(chunk3);
+
+
 
 /* 
     3. Quelques astuces : Sélectionner un caractère, retourner la longueur, etc...

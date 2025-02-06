@@ -17,6 +17,16 @@
 
 */
 
+const title = document.querySelector("h1");
+
+// console.log(typeof title);
+// console.log(title)
+
+title.textContent = "Le texte va etre modifier";
+title.style.backgroundColor = "red";
+
+
+
 
 
 
@@ -34,3 +44,4 @@
   Et des APIs pratiques comme History pour gérer l'historique.
 */
 
+console.log(window);

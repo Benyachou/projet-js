@@ -6,22 +6,29 @@
     Ces paramètres sont des variables locales, utilisables dans le corps de cette fonction.
 */
 
-/* 
-  Une fonction (classique) est composée: 
-  - du mot clé function
-  - d'un nom
-  - de paramètres (optionnel)
-  - d'un return (optionnel)
 
-  On execute une fonction en utilisant son nom + ()
-  Ex : getResults()
+/* 
+Une fonction (classique) est composée: 
+- du mot clé function
+- d'un nom
+- de paramètres (optionnel)
+- d'un return (optionnel)
+
+On execute une fonction en utilisant son nom + ()
+Ex : getResults()
 */
 
 
+function addition (a,b){
+    return a + b;
+}
+console.log(addition(5,7));
 
 // Les fonctions sont des objets, même si typeof retourne "function"
 
 // On appelle les functions des "first class objects", car on peut les exécuter.
+
+console.log(typeof addition);
 
 
 /* 
