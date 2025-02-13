@@ -6,7 +6,9 @@
     Si squareFeet est strictement supérieur à 70, retournez "Large", sinon retournez "Small/Medium".
 */
 
-const squareFeet = 100;
+const squareFeet = 70;
+console.log(squareFeet < 8 ? "large" : "Small/Medium")
+
 
 /* 
     2. Panique à la librairie.
@@ -14,6 +16,7 @@ const squareFeet = 100;
     C'est la crise du papier, il faut augmenter de 1€ le prix de tous les livres(objets) de la bibliothèque(library).
     Utilisez une boucle for ou for...of pour ça.
 */
+
 const library = [
   {
     name: "The Picture of Dorian Gray",
@@ -28,3 +31,17 @@ const library = [
     price: 5
   }
 ]
+
+/* for (let i = 0; i < library.length; i++){
+  library[i].price++;
+}
+console.log(library);
+ */
+
+for (const book of library) {
+  book.price++;
+}
+
+console.log(library);
+
+

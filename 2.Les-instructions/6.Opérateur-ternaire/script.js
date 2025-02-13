@@ -8,7 +8,6 @@
 
 
 
-
 const passenger1 = {
   name : "Maria",
   age: 42,
@@ -20,15 +19,13 @@ const passenger2 = {
   premium: false
 }
 
-/* function isAdult(passenger) {
+function isAdult(passenger) {
   return (passenger.age >= 18 ? true : false);
 }
 console.log(isAdult(passenger1));
 
 const isAdult2 = passenger => passenger.age >= 18 ? true : false; 
 console.log(isAdult2(passenger1));
- */
-
 
 
 

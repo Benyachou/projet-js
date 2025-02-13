@@ -6,6 +6,13 @@
     Attention, si vous avez l'auto-save d'activé, cela peut provoquer une boucle infinie qui fait bugger votre navigateur.
 */
 
+let engineTemperature = 20;
+
+while (engineTemperature < 100) {
+    engineTemperature++;
+}
+
+console.log(engineTemperature);
 
 
 /* 
